@@ -1,0 +1,20 @@
+version 1
+1. remapping power led pin;
+
+version 2
+2020/3/26
+1.  set beep pin low at idle state
+2. turn off state led shine when gas leak detected, now state led only shine when sensor error happen
+
+version 3
+2020/3/29
+1. alarm LED shine together with state LED in warm up process
+2. after warm up ,beep one time
+3. show R if sensor error
+
+version 4
+1. new feature: calibrate the sensor if user press button more than 4 times in warm up process.
+2. sub 1 if the sensor keep 1 for 12 hours
+
+version 5
+1. change some time config base on version 4
